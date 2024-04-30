@@ -26,7 +26,7 @@ function CartItem() {
   return (
     <div className='App-header'>
       <img src="https://5.imimg.com/data5/SELLER/Default/2023/1/MC/SP/FN/69519039/51vz6i9-cml-sl1500-.jpg" height={200} width={200} />
-      <h2>Fanta            50$</h2>
+      <h2>Fanta 50$</h2>
 
       {count === 0 ? (
         <button onClick={handleAddToCart}>Add to Cart</button>
